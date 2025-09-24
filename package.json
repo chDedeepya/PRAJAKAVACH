@@ -1,6 +1,24 @@
 {
+  "name": "prajakavach",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prajakavach Vite React project",
+  "homepage": "https://chDedeepya.github.io/Prajakavach",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
     "recharts": "^3.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "gh-pages": "^5.0.0"
   }
 }

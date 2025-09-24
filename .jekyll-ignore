@@ -1,0 +1,8 @@
+node_modules
+prajakavach/node_modules
+prajakavach/backend/node_modules
+.git
+*.log
+package-lock.json
+prajakavach/package-lock.json
+prajakavach/backend/package-lock.json
