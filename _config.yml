@@ -1,4 +1,4 @@
-title: Prajakavach
+title: "Prajakavach"
 theme: jekyll-theme-primer
 encoding: "utf-8"
 
@@ -8,26 +8,27 @@ readme_index:
 
 # Keep Jekyll away from your app code, lockfiles, and docs that contain {{ }}
 exclude:
-  - node_modules
-  - **/node_modules/**
-  - backend/node_modules
-  - frontend/node_modules
-  - prajakavach/**/node_modules
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - package.json
-  - package-lock.json
-  - pnpm-lock.yaml
-  - yarn.lock
-  - Dockerfile
-  - docker-compose.yml
-  - scripts
-  - .github
-  - README.md
-  - **/README.md
-  - **/CHANGELOG.md
+  - "node_modules"
+  - "**/node_modules/**"
+  - "backend/node_modules"
+  - "frontend/node_modules"
+  - "prajakavach/**/node_modules"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "package.json"
+  - "package-lock.json"
+  - "pnpm-lock.yaml"
+  - "yarn.lock"
+  - "Dockerfile"
+  - "docker-compose.yml"
+  - "scripts"
+  - ".github"
+  - "README.md"
+  - "**/README.md"
+  - "**/CHANGELOG.md"
 
 markdown: kramdown
 kramdown:
   input: GFM
+
